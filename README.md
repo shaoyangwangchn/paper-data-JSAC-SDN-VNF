@@ -1,3 +1,4 @@
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 # paper_data
 
 ## Detailed meaning
@@ -65,7 +66,7 @@
 ### Cost_compute.xlsx
 **Column**  
 
-         A: The cost factor of unit compute resource for different nodes c_{n}^{c}
+         A: The cost factor of unit compute resource for different nodes $$c_{n}^{c}$$
          
          
          
