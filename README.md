@@ -59,16 +59,36 @@
          A: The processing delay of different nodes           
    
 ### Delay_trans.xlsx
-**Column**  
+**Transmission delay matrix** 37 rows and 37 columns 
 
-         A: The transmission delay of different links          
+Each element means the transmission delay of different links $$d_{\left(u,v\right)}^{\mathrm{t},i}$$         
          
 ### Cost_compute.xlsx
 **Column**  
 
          A: The cost factor of unit compute resource for different nodes $$c_{n}^{c}$$
          
+### Cost_deploy.xlsx
+**Column**  means the serial number of nodes
+  
+**Row**  means the 10 different VNF category
+
+Each element means the deployment cost factor of different VNFs at different nodes $$c_{j,n}^{d,i}$$
+
+### Cost_handle.xlsx
+**Column**  
+
+         A: The cost factor of unit processing bandwidth resource for different nodes $$c_{n}^{B^{v}}$$
          
+### Cost_rout.xlsx
+**Routing cost matrix** 37 rows and 37 columns 
+
+Each element means the routing cost factor of different links for unit demand rate $$c_{\left(u,v\right)}^{B^{e}}$$
+           
+### Cost_handle.xlsx
+**Column**  
+
+         A: The cost factor of unit storage resource for different nodes $$c_{n}^{M}$$
          
 
        
