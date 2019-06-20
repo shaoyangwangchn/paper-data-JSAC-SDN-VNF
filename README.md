@@ -65,7 +65,7 @@
 ### Cost_compute.xlsx
 **Column**  
 
-         A: The cost factor of unit compute resource for different nodes $c_{n}^{c}$  
+         A: The cost factor of unit compute resource for different nodes \\(c_{n}^{c}\\)  
          
          
          
