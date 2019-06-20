@@ -3,7 +3,7 @@
 
 ## Detailed meaning
 
-### COST266_data_t.xls
+### COST266_data_t.xlsx
 **Column**  
 
          A: Serial number of nodes  
