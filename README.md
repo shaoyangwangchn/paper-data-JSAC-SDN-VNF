@@ -3,7 +3,8 @@
 ## Detailed meaning
 
 ### COST266_data_t.xlsx
-**Row** A: Serial number of nodes  
+**Row** 
+        A: Serial number of nodes  
 
         B: Abscissa of nodes  
         
