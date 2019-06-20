@@ -3,23 +3,21 @@
 ## Detailed meaning
 
 ### COST266_data_t.xlsx
-**Row** 
+**Row**  A: Serial number of nodes  
 
-        A: Serial number of nodes  
-
-        B: Abscissa of nodes  
+         B: Abscissa of nodes  
         
-        C: Ordinate of nodes
+         C: Ordinate of nodes
         
-        E: Serial number of links
+         E: Serial number of links
         
-        F: Serial number of source nodes
+         F: Serial number of source nodes
         
-        G: Serial number of destination nodes
+         G: Serial number of destination nodes
         
-        H: Unit routing cost of links **Real data**
+         H: Unit routing cost of links **Real data**
         
-        I/J: Unused in this paper
+         I/J: Unused in this paper
         
 ### VNF_set.xlsx
 **Row** A: Serial number of nodes 
