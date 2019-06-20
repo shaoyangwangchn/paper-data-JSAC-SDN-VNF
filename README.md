@@ -3,7 +3,7 @@
 
 ## Detailed meaning
 
-### COST266_data_t.xlsx
+### COST266_data_t.xls
 **Column**  
 
          A: Serial number of nodes  
@@ -22,7 +22,7 @@
         
          I/J: Unused in this paper
         
-### VNF_set.xlsx
+### VNF_set.xls
 **Column**  
 
          A: The required storage space of 10 different VNF category  $$f_{l}^{\mathrm{m}}\left(r^{\mathrm{b}}\right)$$
@@ -33,22 +33,22 @@
         
          D: The processing delay factor of 10 different VNF category   $$f_{l}^{\mathrm{pv}}\left(r^{\mathrm{b}}\right)$$
 
-### Resource_compute.xlsx
+### Resource_compute.xls
 **Column**  
 
          A: The total compute resources of different nodes  $$C_{n}$$
            
-### Resource_handle.xlsx
+### Resource_handle.xls
 **Column**  
 
          A: The total processing bandwidth resources of different nodes  $$B_{n}^{v}$$
          
- ### Resource_storage.xlsx
+ ### Resource_storage.xls
 **Column**  
 
          A: The total storage space resources of different nodes $$M_{n}$$       
          
-### Resource_link.xlsx
+### Resource_link.xls
 **Column**  means the serial number of nodes
   
 **Row**  means the 10 different VNF category
@@ -56,39 +56,44 @@
 Each element means the bandwidth resources of different links  $$B_{\left(u,v\right)}^{e}$$
 
          
-### Delay_handle.xlsx
+### Delay_handle.xls
 **Column**  
 
          A: The processing delay of different nodes  $$d_{n}^{\mathrm{pn},i}$$       
    
-### Delay_trans.xlsx
+### Delay_trans.xls
 **Transmission delay matrix** 37 rows and 37 columns 
 
 Each element means the transmission delay of different links $$d_{\left(u,v\right)}^{\mathrm{t},i}$$         
+
+### Delay_queue.xls
+**Column**  
+
+         A: The queue delay of different services  $$d^{\mathrm{q},i}$$  
          
-### Cost_compute.xlsx
+### Cost_compute.xls
 **Column**  
 
          A: The cost factor of unit compute resource for different nodes $$c_{n}^{c}$$
          
-### Cost_deploy.xlsx
+### Cost_deploy.xls
 **Column**  means the serial number of nodes
   
 **Row**  means the 10 different VNF category
 
 Each element means the deployment cost factor of different VNFs at different nodes $$c_{j,n}^{d,i}$$
 
-### Cost_handle.xlsx
+### Cost_handle.xls
 **Column**  
 
          A: The cost factor of unit processing bandwidth resource for different nodes $$c_{n}^{B^{v}}$$
          
-### Cost_rout.xlsx
+### Cost_rout.xls
 **Routing cost matrix** 37 rows and 37 columns 
 
 Each element means the routing cost factor of different links for unit demand rate $$c_{\left(u,v\right)}^{B^{e}}$$
            
-### Cost_handle.xlsx
+### Cost_handle.xls
 **Column**  
 
          A: The cost factor of unit storage resource for different nodes $$c_{n}^{m}$$
